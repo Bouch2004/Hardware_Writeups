@@ -21,7 +21,7 @@ This challenge requires analyzing a captured RF trace of a **MIFARE Classic 1K**
 
 We are provided with a raw binary trace file: `cybersphere.trace`. Since this is a capture of physical radio signals (ISO 14443-A), we need to load it into the Proxmark3 client in offline mode to parse the packets.
 
-![](C:\Users\Bocuhrit%20Ahmed\AppData\Roaming\marktext\images\2026-04-18-18-57-41-image.png)
+![Decrypted Trace Output](images/output1.png)
 
 Next, we attempt to parse the trace as MIFARE Classic traffic using the default key dictionary:
 
