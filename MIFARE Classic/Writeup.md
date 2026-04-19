@@ -79,7 +79,7 @@ With the keys recovered and the dictionary created, we reload the trace and inst
 
 The output is vastly different now. Armed with the correct keys (`daae7dcdffff` and `f6a651c5d3f7`), Proxmark3 successfully decrypts the MIFARE Classic communication layer. Scrolling through the output, we locate the specific commands where the reader dumped the memory blocks containing the flag.
 
-![](C:\Users\Bocuhrit%20Ahmed\Documents\CTF\CyberSphere\hardware\Proxmark\Writeup\output.png)
+![Decrypted Trace Output](images/output.png)
 
 ### Step 5: Flag Reconstruction
 
