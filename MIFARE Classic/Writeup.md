@@ -21,7 +21,7 @@ This challenge requires analyzing a captured RF trace of a **MIFARE Classic 1K**
 
 We are provided with a raw binary trace file: `cybersphere.trace`. Since this is a capture of physical radio signals (ISO 14443-A), we need to load it into the Proxmark3 client in offline mode to parse the packets.
 
-![](C:\Users\Bocuhrit%20Ahmed\AppData\Roaming\marktext\images\2026-04-18-18-57-41-image.png)
+![Decrypted Trace Output](images/output1.png)
 
 Next, we attempt to parse the trace as MIFARE Classic traffic using the default key dictionary:
 
@@ -79,7 +79,7 @@ With the keys recovered and the dictionary created, we reload the trace and inst
 
 The output is vastly different now. Armed with the correct keys (`daae7dcdffff` and `f6a651c5d3f7`), Proxmark3 successfully decrypts the MIFARE Classic communication layer. Scrolling through the output, we locate the specific commands where the reader dumped the memory blocks containing the flag.
 
-![](C:\Users\Bocuhrit%20Ahmed\Documents\CTF\CyberSphere\hardware\Proxmark\Writeup\output.png)
+![Decrypted Trace Output](images/output.png)
 
 ### Step 5: Flag Reconstruction
 
