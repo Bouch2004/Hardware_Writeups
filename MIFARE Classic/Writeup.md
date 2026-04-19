@@ -91,7 +91,7 @@ The decrypted data blocks are provided in hex format. To reveal the final string
 
 Concatenating the strings reveals the final flag.
 
-![](C:\Users\Bocuhrit%20Ahmed\AppData\Roaming\marktext\images\2026-04-18-18-56-45-image.png)
+![CyberChef Decryption](images/cyberchef.png)
 
 ## Final Flag
 
