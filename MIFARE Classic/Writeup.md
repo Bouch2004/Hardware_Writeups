@@ -85,9 +85,9 @@ The output is vastly different now. Armed with the correct keys (`daae7dcdffff` 
 
 The decrypted data blocks are provided in hex format. To reveal the final string, we extract the hex blocks and translate them to ASCII:
 
-* **Block 4:** `43 79 62 65 72 53 70 68 65 72 65 7B 39 66 34 30` ➔ ``
-* **Block 5:** `65 64 33 32 64 37 36 32 61 35 38 34 39 63 30 33` ➔ `
-* **Block 6:** `39 32 63 32 66 62 37 35 7D 00 00 00 00 00 00 00` ➔ `
+* **Block 4:** `43 79 62 65 72 53 70 68 65 72 65 7B 39 66 34 30` 
+* **Block 5:** `65 64 33 32 64 37 36 32 61 35 38 34 39 63 30 33` 
+* **Block 6:** `39 32 63 32 66 62 37 35 7D 00 00 00 00 00 00 00` 
 
 Concatenating the strings reveals the final flag.
 
